@@ -1,0 +1,19 @@
+package_name: translator_model
+
+train_data_file: train.txt
+train_data_file_type: txt
+
+test_data_file: test.txt
+test_data_file_type: txt
+
+
+weights_save_file: translator_model_weights_v
+inp_processor_save_file: input_processor_v
+targ_processor_save_file: target_processor_v
+
+batch_size: 32
+units: 128
+embedding_dim: 256
+max_vocab_size: 10000
+epochs: 20
+tf_seed: 0

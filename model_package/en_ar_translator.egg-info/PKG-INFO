@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: en-ar-translator
+Version: 0.0.2
+Summary: An RNN AR-EN tranlator
+Home-page: https://github.com/mohbenaicha/
+Author: Mohamed Benaicha
+Author-email: mohamed.benaicha@hotmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+English-Arabic translator model containing that utilizes encoder 
+                        and decoder RNNs as well as an attention layer.
+
