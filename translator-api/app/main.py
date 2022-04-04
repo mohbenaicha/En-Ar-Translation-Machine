@@ -40,9 +40,9 @@ def index(request: Request) -> Any:
         """<li> Edit the 'Request body' input box to your liking then
         hit 'execute'. </li>"""
         "<li> Scroll down further (ignore the cURL request template following it) </li>"
-        "<li> Check the predictions under the reponse body .</li>"
+        "<li> Check the translation under the reponse body .</li>"
         """<li> Note 1: status code 200 means the post request was valid and should
-        yield a prediction within the response body. </li>"""
+        yield a translation within the response body. </li>"""
         """<li> Note 2: This tanslator was trained on 10,000 En-Ar sentence pairs
         and so it not the most sophisticated. It an handle short sentences.
         This translator is being further trained on more En-Ar sentence pairs as they
