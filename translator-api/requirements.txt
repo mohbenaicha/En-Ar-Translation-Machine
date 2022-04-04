@@ -1,0 +1,9 @@
+--extra-index-url https://1r6fGi-XKBhMEkMW2oP7Mvch0SOlQD40FA:@pypi.fury.io/mohbenaicha/
+en-ar-translator==0.0.1
+uvicorn==0.16.0
+fastapi>=0.74.0,<0.76.0
+python-multipart==0.0.5
+typing_extensions>=3.7.4.3
+pydantic==1.8.2
+loguru==0.5.3
+

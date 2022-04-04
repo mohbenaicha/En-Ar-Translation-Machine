@@ -1,0 +1,24 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./translator_model/*
+
+include translator_model/datasets/train.txt
+include translator_model/datasets/test.txt
+include translator_model/weights/*
+include translator_model/trained_processors/*.pkl
+include translator_model/VERSION
+include translator_model/config.yml
+
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+exclude ./research_project/*
+exclude ./translator-api/*
+exclude ./.tox/*
+exclude ./.git/*
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
