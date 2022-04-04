@@ -1,7 +1,6 @@
 import math
 
 import numpy
-
 from translator_model.translate import make_translation
 
 

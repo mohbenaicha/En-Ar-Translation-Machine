@@ -28,7 +28,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "MCI Prediction API"
+    PROJECT_NAME: str = "En-Ar Translation Machine API"
 
     class Config:
         case_sensitive = True
