@@ -19,12 +19,12 @@ translator_model/config/__init__.py
 translator_model/config/base.py
 translator_model/datasets/test.txt
 translator_model/datasets/train.txt
-translator_model/trained_processors/input_processor_v0.0.2.pkl
-translator_model/trained_processors/target_processor_v0.0.2.pkl
+translator_model/trained_processors/input_processor_v0.0.21.pkl
+translator_model/trained_processors/target_processor_v0.0.21.pkl
 translator_model/utilities/__init__.py
 translator_model/utilities/data_manager.py
 translator_model/utilities/model_tools.py
 translator_model/utilities/validation.py
 translator_model/weights/checkpoint
-translator_model/weights/translator_model_weights_v0.0.2.data-00000-of-00001
-translator_model/weights/translator_model_weights_v0.0.2.index
+translator_model/weights/translator_model_weights_v0.0.21.data-00000-of-00001
+translator_model/weights/translator_model_weights_v0.0.21.index

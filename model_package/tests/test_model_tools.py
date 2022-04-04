@@ -1,13 +1,10 @@
-from typing import List
-
 import numpy as np
 import tensorflow as tf
 
 from translator_model import __version__ as _version
 from translator_model.config.base import config
-from translator_model.pipeline import Pipeline
 from translator_model.utilities import model_tools as mt
-from translator_model.utilities.data_manager import load_dataset, load_processor
+from translator_model.utilities.data_manager import load_processor
 
 
 def test_enlish_normalizer(test_input_data):

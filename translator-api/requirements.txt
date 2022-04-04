@@ -1,5 +1,5 @@
---extra-index-url https://1r6fGi-XKBhMEkMW2oP7Mvch0SOlQD40FA:@pypi.fury.io/mohbenaicha/
-en-ar-translator==0.0.2
+--extra-index-url https://pypi.fury.io/mohbenaicha/ 
+en_ar_translator==0.0.21
 uvicorn==0.16.0
 fastapi>=0.74.0,<0.76.0
 python-multipart==0.0.5

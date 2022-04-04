@@ -30,7 +30,6 @@ setup(
     author="Mohamed Benaicha",
     author_email="mohamed.benaicha@hotmail.com",
     python_requires=">=3.9.0",
-    url="https://github.com/mohbenaicha/",
     packages=find_packages(exclude=("tests",)),
     package_data={"mci_model": ["VERSION"]},# this is included here despite 
                                             # despite also being under MANIFEST.in

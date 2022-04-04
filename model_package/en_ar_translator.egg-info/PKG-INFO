@@ -1,8 +1,7 @@
 Metadata-Version: 2.1
 Name: en-ar-translator
-Version: 0.0.2
+Version: 0.0.21
 Summary: An RNN AR-EN tranlator
-Home-page: https://github.com/mohbenaicha/
 Author: Mohamed Benaicha
 Author-email: mohamed.benaicha@hotmail.com
 License: Apache License 2.0
