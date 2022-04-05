@@ -15,7 +15,7 @@ include ./requirements/test_requirements.txt
 exclude *.log
 exclude *.cfg
 
-exclude ./research_project/*
+exclude ./research_work/*
 exclude ./translator-api/*
 exclude ./.tox/*
 exclude ./.git/*
