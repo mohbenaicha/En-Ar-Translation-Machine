@@ -99,14 +99,14 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - test_app:
           requires:
             - model_test_and_upload_test
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy_app_to_heroku:
           requires:
             - test_app
@@ -118,4 +118,4 @@ workflows:
       #     filters:
       #       branches:
       #         only:
-      #           - master
+      #           - main
