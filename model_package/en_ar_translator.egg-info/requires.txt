@@ -1,0 +1,9 @@
+numpy==1.22.3
+pydantic==1.8.2
+tensorflow-cpu
+tensorflow_text==2.8.1
+silence-tensorflow==1.1.1
+strictyaml==1.6.1
+setuptools>=20.6.8
+ruamel.yaml==0.16.12
+joblib==1.1.0
