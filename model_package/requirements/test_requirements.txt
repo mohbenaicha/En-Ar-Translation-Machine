@@ -1,0 +1,13 @@
+# command to include requirements from requirements.txt
+-r requirements.txt
+
+# testing requirements
+pytest==6.2.5
+
+# repo maintenance tooling
+black==22.3.0
+flake8==3.9.2
+mypy==0.921
+isort==5.8.0
+
+twine==3.8.0
