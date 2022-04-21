@@ -4,7 +4,7 @@ from fastapi import APIRouter, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from loguru import logger
-from translator_model.utilities.data_manager import zip_unzip_model
+
 from app.api import api_router
 from app.config import settings, setup_app_logging
 
@@ -75,14 +75,6 @@ if settings.BACKEND_CORS_ORIGINS:
         # not browser user-agents for example
         allow_headers=["*"],
     )
-
-
-def unzip_and_app(app_object: FastAPI = app) -> FastAPI:
-    zip_unzip_model(test=False, zip=False)
-    return app_object
-
-
-app = unzip_and_app()
 
 
 if __name__ == "__main__":
