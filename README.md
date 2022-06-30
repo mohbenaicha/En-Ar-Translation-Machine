@@ -55,4 +55,4 @@ print(translate.make_translation(input_data=["Translate this sentence for me."])
 ## Appendix: Notes and Disclaimers:
 
 - Note 1: status code 200 means the post request was valid and should yield a translation within the response body.
-- Note 2: This tanslator was trained on 10,000 En-Ar sentence pairs and so it not the most sophisticated. It an handle short sentences. This translator is being further trained on more En-Ar sentence pairs as they are collected.
+- Note 2: This tanslator was trained on 10,000 En-Ar sentence pairs and so it is not the most sophisticated. It can handle short sentences. This translator is being further trained on more En-Ar sentence pairs as they are collected.
